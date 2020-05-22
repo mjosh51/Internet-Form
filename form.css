@@ -1,0 +1,92 @@
+body {
+	background: url("https://i.imgur.com/lYszPo3.jpg") left repeat;
+	font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+	opacity: 0.9;
+}
+
+#title {
+	color: black;
+	font-size: 40px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#description {
+	color: rgba(50%, 20%, 10%, 0.8);
+	margin-top: 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+#survey-form {
+	background: #eee;
+	border: 2px solid #eee;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 40px;
+	max-width: 600px;	
+}
+
+.form-group {
+	margin: 10px auto 10px auto;
+	padding: 5px;
+	text-align: left;
+}
+
+ label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 5px;
+} 
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input-radio {
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.input-check {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.design-input {
+	border: 2px solid #6C7A7A;
+	border-radius: 3px;
+	width: 100%;
+	padding: 7px;
+}
+
+#comments {
+	border: 1px solid #fff;
+	width: 100%;
+	min-height: 120px;
+	resize: vertical;
+}
+
+#check {
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.emphasis_para {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.submit-button {
+	width: 100%; 
+	padding: 10px;
+	cursor: pointer;
+}

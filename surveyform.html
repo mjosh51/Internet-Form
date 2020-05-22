@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey Form</title>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<link rel="stylesheet" type="text/css" href="form.css">
+	</head>
+
+	<body>
+		<div class="form-box">
+			<header class="header">
+			<h1 id="title">Internet Survey Form</h1>
+			<p id="description">A check on how the internet should be for you</p>
+			</header>
+
+			<form id="survey-form">
+				<div class="form-group">
+				<label id="name-label" for="name">Name</label>
+				<input id="name" name="name" type="text" placeholder="Your Full Name" class="design-input" required>
+				</div>
+			<div class="form-group">
+			<label id="email-label" for="email">Email</label>
+			<input id="email" name="email" type="email" placeholder="Enter email address" class="design-input" required>
+			</div>
+
+			<div class="form-group">
+			<label id="number-label" for="number">Age <span class="optional">(optional)</span></label>
+			<input id="number" type="number" name="age" min="10" max="99" placeholder="Age" class="design-input" required />	
+			</div>
+
+			<div class="form-group">	
+			<label id="dropdown" for="occupation">Which option best describes your occupation?</label>
+			<select id="dropdown" name="occupation" class="design-input" required>
+				<option disabled selected value>Select your occupation</option>
+				<option value="student">Student</option>
+				<option value="onlineworker">Online Worker</option>
+				<option value="offlineworker">Offline Worker</option>
+				<option value="other">Others</option>
+			</select>
+			</div>
+
+			<div class="form-group">
+			<p>What do you use the internet for mostly?</p>
+			<label>
+			<input type="radio" name="radio" value="official use" class="input-radio" checked />Official use
+			</label>
+			</div>
+
+			<div class="form-group">
+			<label>
+			<input type="radio" name="radio" value="personal use" class="input-radio" checked />Personal use
+			</label>
+			</div>
+
+			<div class="form-group">
+			<label id="check" for="internet-usage">In using the internet for official or personal use, check any of the following that describes what you use internet for</label>
+			<input type="checkbox" class="input-check" value="entertainment" />Entertainment <br> <br>
+			<input type="checkbox" class="input-check" value="social media" />Social media <br> <br>
+			<input type="checkbox" class="input-check" value="learning" />Learning <br> <br>
+			<input type="checkbox" class="input-check" value="earning" />Earning
+			</div>
+
+			<p class="emphasis_para">Do you know anything about a decentralized internet?</p>
+			<label>
+			<input type="radio" name="radio" value="yes" class="input-radio">Yes
+			</label>
+
+			<label>
+			<input type="radio" name="radio" value="yes" class="input-radio">No
+			</label>
+
+			<p class="emphasis_para">One of many advantages of a decentralized internet is privacy and security of personal data and online activities, if you happen to know one that provides this feature for you, will you be willingly to pay for such?</p>
+			<label>
+			<input type="radio" name="radio" value="yes" class="input-radio">Yes
+			</label>
+
+			<label>
+			<input type="radio" name="radio" value="yes" class="input-radio">No, it would be better if it is free
+			</label>
+
+			<div class="form-group">
+			<p>Do you like to comment on what the internet should be for you?</p>
+			<textarea id="comments" name="comment" placeholder="Enter your comment here....."></textarea>
+			</div>
+
+			<div class="form-group">
+			<button type="submit" id="submit" class="submit-button">Submit
+			</button>
+			</div>
+			</form>
+		</div>
+
+	</body>
+
+</html>
